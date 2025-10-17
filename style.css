@@ -1,0 +1,51 @@
+/* General Page Styling */
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Container styling for the main content box */
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Button styling */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #5563DE;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3b49b3;
+}
+
+/* Dark mode styling (applied dynamically by JS) */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Container appearance in dark mode */
+.dark-mode .container {
+  background-color: #1e1e1e;
+}
+
+/* Gallery image formatting */
+.gallery img {
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
